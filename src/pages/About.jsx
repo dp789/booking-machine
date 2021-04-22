@@ -3,12 +3,19 @@ import { FaFacebookSquare,FaLinkedin } from 'react-icons/fa';
 import {IoLogoYoutube} from 'react-icons/io';
 import { AiFillInstagram } from 'react-icons/ai';
 import {Link} from 'react-router-dom';
+import Rabout from '../images/about.png';
+import Customer from '../images/customers/customer.svg';
+import Customer1 from '../images/customers/customer1.svg';
+import Customer2 from '../images/customers/customer2.svg';
+import Customer3 from '../images/customers/customer3.svg';
+import Customer4 from '../images/customers/customer4.svg';
+
 function About() {
     return (
     <div className="container aboutus">
         <div className="row">
             <div className="col-md-6 col-12 my-auto">
-                <img src={require('../images/about.svg')} alt="about us" className="img-fluid" />
+                <img src= {Rabout} alt="about us" className="img-fluid" />
             </div>
             <div className="col-md-6 col-12 my-auto">
                 <h1 className="display-4 text-center my-5">About Us </h1>
@@ -39,7 +46,7 @@ function About() {
                             <div className="carousel-item active text-center">
                                 <div className="row">
                                     <div className="col-md-8 col-12 my-auto">
-                                        <img src={require('../images/customers/customer.svg')} className="text-center img-fluid" width="450" height="400" alt="customer1" />
+                                        <img src={Customer} className="text-center img-fluid" width="450" height="400" alt="customer1" />
                                     </div>
                                     <div className="col-md-4 col-12 my-auto">
                                         <div className="text-dark">
@@ -52,7 +59,7 @@ function About() {
                             <div className="carousel-item text-center">
                                 <div className="row">
                                     <div className="col-md-8 col-12 my-auto">
-                                        <img src={require('../images/customers/customer1.svg')} className="text-center img-fluid" width="450" height="400" alt="customer2" />
+                                        <img src={Customer1} className="text-center img-fluid" width="450" height="400" alt="customer2" />
                                     </div>
                                     <div className="col-md-4 col-12 my-auto">
                                         <div className="text-dark">
@@ -65,7 +72,7 @@ function About() {
                             <div className="carousel-item text-center">
                                 <div className="row">
                                     <div className="col-md-8 col-12 my-auto">
-                                        <img src={require('../images/customers/customer3.svg')} className="text-center img-fluid" width="450" height="400" alt="customer3" />
+                                        <img src={Customer3} className="text-center img-fluid" width="450" height="400" alt="customer3" />
                                     </div>
                                     <div className="col-md-4 col-12 my-auto">
                                         <div className="text-dark">
@@ -78,7 +85,7 @@ function About() {
                             <div className="carousel-item text-center">
                                 <div className="row">
                                     <div className="col-md-8 col-12 my-auto">
-                                        <img src={require('../images/customers/customer4.svg')} className="text-center img-fluid" width="450" height="400" alt="customer4" />
+                                        <img src={Customer4} className="text-center img-fluid" width="450" height="400" alt="customer4" />
                                     </div>
                                     <div className="col-md-4 col-12 my-auto">
                                         <div className="text-dark">

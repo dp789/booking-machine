@@ -525,3 +525,6 @@ box-shadow: inset 0 -1px 0 #ddd;
   font-size: 44px!important;
   padding: 5px 8px;
 }
+.col-md-6 col-12 my-auto{
+  background-image: url("./images/about.png");
+}
